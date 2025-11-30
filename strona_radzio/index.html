@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Skup Samochodów - AutoCash</title>
+<style>
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: 'Arial', sans-serif;
+line-height: 1.6;
+background: #f8f9fa;
+color: #333;
+}
+
+.contact-bar {
+background: #e74c3c;
+color: white;
+padding: 1rem;
+text-align: center;
+font-size: 1.3rem;
+font-weight: bold;
+}
+
+.header {
+background: linear-gradient(135deg, #2c3e50, #3498db);
+color: white;
+padding: 3rem 0;
+text-align: center;
+}
+
+.header h1 {
+font-size: 2.5rem;
+margin-bottom: 1rem;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 2rem;
+}
+
+.benefits {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+gap: 2rem;
+margin: 3rem 0;
+}
+
+.benefit-card {
+background: white;
+padding: 2rem;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+text-align: center;
+transition: transform 0.3s ease;
+}
+
+.benefit-card:hover {
+transform: translateY(-5px);
+}
+
+.benefit-card h3 {
+color: #2c3e50;
+margin-bottom: 1rem;
+font-size: 1.3rem;
+}
+
+.phone-button {
+display: inline-block;
+background: #27ae60;
+color: white;
+padding: 1rem 2rem;
+text-decoration: none;
+border-radius: 50px;
+font-size: 1.3rem;
+font-weight: bold;
+margin: 1rem 0;
+transition: background 0.3s ease;
+box-shadow: 0 4px 10px rgba(39, 174, 96, 0.3);
+}
+
+.phone-button:hover {
+background: #219653;
+}
+
+.services {
+background: white;
+padding: 3rem;
+border-radius: 10px;
+margin: 2rem 0;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.services h2 {
+text-align: center;
+margin-bottom: 2rem;
+color: #2c3e50;
+}
+
+.service-list {
+list-style: none;
+columns: 2;
+}
+
+.service-list li {
+padding: 0.5rem 0;
+font-size: 1.1rem;
+}
+
+.service-list li:before {
+content: "✓ ";
+color: #27ae60;
+font-weight: bold;
+}
+
+@media (max-width: 768px) {
+.service-list {
+columns: 1;
+}
+
+.header h1 {
+font-size: 2rem;
+}
+
+.contact-bar {
+font-size: 1.1rem;
+}
+}
+</style>
+</head>
+<body>
+<!-- Pasek kontaktowy -->
+<div class="contact-bar">
+📞 Zadzwoń: 123-456-789 • 🚗 Dojazd gratis • 💰 Gotówka od ręki
+</div>
+
+<!-- Nagłówek -->
+<header class="header">
+<div class="container">
+<h1>SKUP SAMOCHODÓW AUTO-CASH</h1>
+<p style="font-size: 1.2rem; opacity: 0.9;">Gotówka od ręki • Bezpłatna wycena • Dojazd w 60 minut</p>
+</div>
+</header>
+
+<!-- Główna zawartość -->
+<div class="container">
+<!-- Benefit cards -->
+<div class="benefits">
+<div class="benefit-card">
+<h3>💰 Gotówka od ręki</h3>
+<p>Płacimy gotówką lub przelewem w ciągu 30 minut od wyceny</p>
+</div>
+<div class="benefit-card">
+<h3>🚚 Bezpłatny dojazd</h3>
+<p>Dojeżdżamy do Ciebie w całym województwie mazowieckim</p>
+</div>
+<div class="benefit-card">
+<h3>🎯 Każdy stan auta</h3>
+<p>Skupujemy uszkodzone, powypadkowe, bez przeglądu i stare modele</p>
+</div>
+</div>
+
+<!-- Przycisk telefonu -->
+<div style="text-align: center; margin: 4rem 0;">
+<h2 style="color: #2c3e50; margin-bottom: 1.5rem; font-size: 2rem;">Sprzedaj swój samochód w 3 krokach!</h2>
+<p style="font-size: 1.2rem; margin-bottom: 2rem; color: #666;">
+1. Zadzwoń 📞 → 2. Umów darmową wycenę 🚗 → 3. Odbierz gotówkę 💰
+</p>
+<a href="tel:123456789" class="phone-button">ZADZWOŃ TERAZ - 123-456-789</a>
+</div>
+
+<!-- Sekcja usług -->
+<div class="services">
+<h2>Skupujemy wszystkie marki i modele</h2>
+<ul class="service-list">
+<li>Samochody osobowe i dostawcze</li>
+<li>Pojazdy powypadkowe</li>
+<li>Auta z uszkodzonym silnikiem</li>
+<li>Samochody bez przeglądu</li>
+<li>Pojazdy pożyczkowe</li>
+<li>Autobusy i motocykle</li>
+<li>Samochody zabytkowe</li>
+<li>Pojazdy z zagranicy</li>
+</ul>
+</div>
+</div>
+
+<!-- Stopka -->
+<footer style="background: #2c3e50; color: white; text-align: center; padding: 2rem; margin-top: 3rem;">
+<p>© 2024 Skup Samochodów Auto-Cash • Przykładowa strona demonstracyjna</p>
+</footer>
+</body>
+</html>
